@@ -11,6 +11,8 @@ import cucumber.api.testng.TestNGCucumberRunner;
 import cucumber.api.testng.*;
 
 @CucumberOptions (
+		features = "./src/test/resources/Features/",
+		glue = {"StepDef"},
         plugin = {"pretty"})
 public class TestRunner {
     private TestNGCucumberRunner testNGCucumberRunner;
