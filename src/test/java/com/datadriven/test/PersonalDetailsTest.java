@@ -1,5 +1,5 @@
 package com.datadriven.test;
-import testConfiguration.TestConfig;
+import Pages.ViewPersonalDetails;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -23,20 +23,18 @@ import org.testng.annotations.Test;
 
 import com.test.utility.TestUtil;
 
-import PersonalDetails.TestRunnerPersonalDetails;
-import pageBeans.ViewPersonalDetails;
-import stepDefinitions.StepDefPersonalDetails;
 
 public class PersonalDetailsTest{
 	WebDriver driver;
 	private ViewPersonalDetails objelppf;
+	/*
 	public int testCount;
 	public String cdriverAd;
 	public String url;
 	public String un;
 	public String pwd;
 	public int waitTime;
-
+	*/
 	
 	@BeforeTest
 	public void setUp() throws Throwable {
